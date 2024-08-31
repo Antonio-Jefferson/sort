@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-2xl font-bold mb-8">Sorteio de Bônus</h1>
+      <h1 className="text-xl font-bold mb-8">Sorteio de Bônus</h1>
 
       <div className="flex flex-col items-center">
         {/* Exibir o número durante a rolagem ou o resultado final */}
