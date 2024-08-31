@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const percentages = [5, 10, 15, 20, 25, 30, 35, 40, 50]; // Porcentagens possíveis
+  const percentages = [10, 15, 20, 25, 30, 35, 40, 50]; // Porcentagens possíveis
   const [currentNumber, setCurrentNumber] = useState(1); // Número atual durante a rolagem
   const [isRolling, setIsRolling] = useState(false); // Controla o estado de rolagem
   const [finalBonus, setFinalBonus] = useState(null); // Armazena o resultado final do sorteio
